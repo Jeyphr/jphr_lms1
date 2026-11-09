@@ -14217,7 +14217,7 @@
 }
 {
 "classname" "game_perk"
-"spawnflags" "254"
+"spawnflags" "246"
 "targetname" "perky_4"
 "mode" "0"
 "player_mode" "0"
@@ -14225,7 +14225,7 @@
 }
 {
 "classname" "misc_model"
-"model" "models/sprites/sprkle.spr"
+"model" "models/sprites/lightning.spr"
 "spawnflags" "64"
 "month_limiter" "0"
 "gamemode_limiter" "0"

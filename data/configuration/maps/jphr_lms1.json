@@ -19,9 +19,9 @@
             "powerup_max_ammo":
             {
                 "enabled": true,
-                "chance_to_allow_in_rotation": 0.25,
+                "chance_to_allow_in_rotation": 1,
                 "disabled_before_round": 0,
-                "fills_magazine": false,
+                "fills_magazine": true,
                 "toast": "Max Ammo!",
                 "show_toast": true,
                 "model": "models/pu/maxammo!.mdl",
@@ -33,9 +33,9 @@
                 "enabled": true,
                 "chance_to_allow_in_rotation": 1,
                 "disabled_before_round": 0,
-                "duration": 30,
+                "duration": 10,
                 "toast": "Insta-Kill!",
-                "show_toast": false,
+                "show_toast": true,
                 "model": "models/pu/instakill!.mdl",
                 "voiceover": "sounds/pu/insta_kill.wav"
             },
@@ -45,7 +45,7 @@
                 "enabled": true,
                 "chance_to_allow_in_rotation": 1,
                 "disabled_before_round": 0,
-                "duration": 30,
+                "duration": 10,
                 "score_multiplier": 2,
                 "toast": "Double Points!",
                 "show_toast": true,
@@ -91,8 +91,8 @@
             "powerup_weapon_upgrade":
             {
                 "enabled": true,
-                "chance_to_allow_in_rotation": 0.25,
-                "disabled_before_round": 10,
+                "chance_to_allow_in_rotation": 1,
+                "disabled_before_round": 0,
                 "awarded_score_if_no_upgrade_received": 0,
                 "toast": "Get Packed!",
                 "show_toast": true,
@@ -157,8 +157,8 @@
 
             "graphics":
             {
-                "score_background_full": "gfx/hud/jphr/clean/score/moneybackRed",
-                "score_background_condensed": "gfx/hud/jphr/clean/score/moneyback_condensedRed"
+                "score_background_full":        "gfx/hud/jphr/clean/score/moneybackRed",
+                "score_background_condensed":   "gfx/hud/jphr/clean/score/moneyback_condensedRed"
             }
         }
     }
